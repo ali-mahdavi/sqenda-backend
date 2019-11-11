@@ -12,7 +12,6 @@
         <module>config-server</module>
         <module>registry-service</module>
         <module>gateway-service</module>
+        <module>auth-service</module>
     </modules>
-
-
 </project>
