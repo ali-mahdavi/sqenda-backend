@@ -1,8 +1,9 @@
 package com.electropeyk.accountservice.controller;
 
-import com.marcusdacoregio.accountservice.dto.UserDto;
-import com.marcusdacoregio.accountservice.dto.UserRegistrationDto;
-import com.marcusdacoregio.accountservice.service.AccountService;
+
+import com.electropeyk.accountservice.dto.UserDto;
+import com.electropeyk.accountservice.dto.UserRegistrationDto;
+import com.electropeyk.accountservice.service.AccountService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

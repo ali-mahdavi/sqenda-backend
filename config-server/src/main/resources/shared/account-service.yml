@@ -1,7 +1,7 @@
 security:
   oauth2:
     client:
-      clientId: sqenda-service
+      clientId: account-service
       clientSecret: 1234
       accessTokenUri: http://localhost:8081/uaa/oauth/token
       grant-type: client_credentials
@@ -9,7 +9,7 @@ security:
 
 server:
   servlet:
-    context-path: /sqenda
+    context-path: /accounts
   port: 8082
 
 feign:

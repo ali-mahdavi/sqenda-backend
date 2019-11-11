@@ -6,6 +6,7 @@ spring:
       username: oauth-user
       password: password
       database: oauth-db
+
 server:
   servlet:
     context-path: /uaa

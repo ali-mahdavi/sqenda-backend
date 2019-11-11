@@ -1,7 +1,8 @@
 package com.electropeyk.accountservice.client;
 
-import com.marcusdacoregio.accountservice.dto.UserDto;
-import com.marcusdacoregio.accountservice.dto.UserRegistrationDto;
+
+import com.electropeyk.accountservice.dto.UserDto;
+import com.electropeyk.accountservice.dto.UserRegistrationDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
